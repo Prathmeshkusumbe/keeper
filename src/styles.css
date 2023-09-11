@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: orange;
+}
+.head-title {
+  color: #fff;
+  padding: 20px;
+  font-size: 30px;
+}
+.note-box {
+  box-shadow: 0 0 10px 0px #00000042;
+  display: inline-block;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+}
+.note-box h3 {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+.container {
+  padding: 10px 15px;
+}
+.create-area input {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.create-area input,.create-area textarea{
+  display: block;
+  border: none;
+  font-size: 20px;
+  width: 100%;
+}
+.create-area textarea {
+  resize: none;
+  min-height: 81px;
+}
+.create-area form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 76px;
+  /* border: 1px solid grey; */
+  box-shadow: 0px 0px 10px #b3a8a878;
+  border-radius: 12px;
+  padding: 20px 10px 20px 15px;
+  position: relative;
+}
+.note-box{
+  position: relative;
+}
+.note-box button, .create-area button {
+  position: absolute;
+  right: 22px;
+  background: orange;
+  padding: 11px 19px 10px 19px;
+  /* display: block; */
+  border: navajowhite;
+  color: #fff;
+  border-radius: 20px;
+}
+textarea:focus-visible {
+  outline: none;
+}
+input:focus-visible {
+  outline: none;
+}
+html,body{
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 16px;
+  text-align: center;
+  width: 100%;
+}
